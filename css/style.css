@@ -1,0 +1,62 @@
+/*   adding font and changing background color   */
+body, html {
+  height: 100%;
+  background-color: #d4dde4;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bg {
+  /* The images used as backgrounds*/
+  /*   welcome   */
+  background-image: url("../images/background.jpg");
+
+  /* Half height */
+  height: 85%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*making space between top of the website and my photo*/   
+.view {
+padding-top: 25PX;
+text-align: center;
+}
+
+/*   making content step away from title and background   */
+.container-fluid {
+	margin-top: 25%;
+  text-align: center;
+}
+
+.container-fluid-project {
+	margin-top: 25%;
+  text-align: center;
+  padding-left: 23%;
+  margin-bottom: 50px;
+}
+
+.container-fluid-contact {
+	margin-top: 5%;
+  text-align: center;
+  padding-left: 23%;
+  margin-bottom: 50px;
+}
+
+/*   styling slider   */
+.carousel {
+padding-top: 40px;
+padding-bottom: 100px;
+width: 45%;
+margin: auto;
+}
+
+.text-dec {
+  text-align: justify;
+  width: 48%;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-bottom: 60px;
+}
